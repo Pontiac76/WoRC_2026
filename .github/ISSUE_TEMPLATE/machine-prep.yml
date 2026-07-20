@@ -1,6 +1,6 @@
 name: Machine Prep / Packing Checklist
 description: Track setup tasks and required peripherals for a WoRC 2026 machine
-title: "[Machine] "
+title: "[Machine]: "
 body:
   - type: textarea
     id: purpose
