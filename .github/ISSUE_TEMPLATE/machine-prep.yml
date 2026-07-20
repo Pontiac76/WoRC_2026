@@ -10,6 +10,13 @@ body:
     validations:
       required: false
 
+  - type: input
+    id: CYD_Info
+    attributes:
+      label: Identify the CYD that goes with this machine
+    validations:
+      required: false
+
   - type: checkboxes
     id: prep_tasks
     attributes:
