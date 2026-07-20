@@ -35,7 +35,7 @@ body:
     attributes:
       label: Required peripherals and accessories
       description: List only the items that belong with this machine and are required for it to function.
-      options: |
+      options:
         - label: Power cable
         - label: Monitor
         - label: Monitor Power
