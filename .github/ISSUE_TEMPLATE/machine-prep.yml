@@ -5,14 +5,6 @@ labels:
   - machine-prep
   - WoRC-2026
 body:
-  - type: input
-    id: machine_name
-    attributes:
-      label: Machine name / identifier
-      placeholder: "Example: Main desktop, Laptop 1, Streaming PC"
-    validations:
-      required: true
-
   - type: textarea
     id: purpose
     attributes:
@@ -37,13 +29,13 @@ body:
         - label: Backups/exported configs completed
         - label: Machine boots cleanly
         - label: Final functionality test completed
-
+  
   - type: textarea
     id: custom_tasks
     attributes:
       label: Additional tasks
       description: Add any machine-specific work items here.
-      placeholder: |
+      value: |
         - [ ] Install/configure ...
         - [ ] Test ...
         - [ ] Verify ...
@@ -52,18 +44,18 @@ body:
     id: peripherals
     attributes:
       label: Required peripherals and accessories
-      description: List only the items that belong with this machine and are required for it to function. No printers.
-      placeholder: |
+      description: List only the items that belong with this machine and are required for it to function.
+      value: |
         - [ ] Power cable
         - [ ] Monitor
-        - [ ] HDMI/DisplayPort cable
+        - [ ] Monitor Power
+        - [ ] VGA Cable
+        - [ ] HDMI cable
+        - [ ] Display Port Cable
         - [ ] Keyboard
         - [ ] Mouse
         - [ ] Network cable
-        - [ ] USB hub
-        - [ ] External drive
-    validations:
-      required: true
+        - [ ] Speakers
 
   - type: textarea
     id: notes
@@ -79,4 +71,4 @@ body:
       options:
         - label: This machine is ready to bring to WoRC 2026
         - label: All required peripherals/accessories are gathered
-        - label: No printer is included
+
