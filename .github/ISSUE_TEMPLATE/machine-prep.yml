@@ -51,10 +51,10 @@ body:
       description: Any extra machine-specific details, warnings, or dependencies.
       placeholder: "Anything important to remember."
 
-  # - type: checkboxes
-  #   id: final_check
-  #   attributes:
-  #     label: Final confirmation
-  #     options:
-  #       - label: This machine is ready to bring to WoRC 2026
-  #       - label: All required peripherals/accessories are gathered
+  - type: checkboxes
+    id: final_check
+    attributes:
+      label: Final confirmation
+      options:
+        - label: This machine is ready to bring to WoRC 2026
+        - label: All required peripherals/accessories are gathered
