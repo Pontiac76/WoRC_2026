@@ -7,7 +7,6 @@ body:
     attributes:
       label: Machine purpose
       description: What is this machine being brought for?
-      placeholder: "Example: scoring, display, testing, adminI don', backup"
     validations:
       required: false
 
@@ -44,6 +43,23 @@ body:
         - label: Network cable
         - label: Speakers
 
+  - type: checkboxes
+    id: packed_accessories
+    attributes:
+      label: Packed peripherals and accessories
+      description: Check these off when packing the machines up
+      options:
+        - label: Power cable
+        - label: Monitor
+        - label: Monitor Power
+        - label: VGA Cable
+        - label: HDMI cable
+        - label: Display Port Cable
+        - label: Keyboard
+        - label: Mouse
+        - label: Network cable
+        - label: Speakers
+  
   - type: textarea
     id: notes
     attributes:
