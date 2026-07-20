@@ -44,12 +44,12 @@ body:
         - label: Network cable
         - label: Speakers
 
-  # - type: textarea
-  #   id: notes
-  #   attributes:
-  #     label: Notes
-  #     description: Any extra machine-specific details, warnings, or dependencies.
-  #     placeholder: "Anything important to remember."
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Any extra machine-specific details, warnings, or dependencies.
+      placeholder: "Anything important to remember."
 
   # - type: checkboxes
   #   id: final_check
