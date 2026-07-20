@@ -10,3 +10,51 @@ body:
       placeholder: "Example: scoring, display, testing, adminI don', backup"
     validations:
       required: false
+
+  - type: checkboxes
+    id: prep_tasks
+    attributes:
+      label: Tasks to complete on this machine
+      description: Things that need to be installed, configured, tested, updated, or verified.
+      options:
+        - label: OS updated
+        - label: Required software installed
+        - label: Network configuration checked
+        - label: User accounts/passwords verified
+        - label: Power settings configured
+        - label: Remote access tested
+        - label: Backups/exported configs completed
+        - label: Machine boots cleanly
+        - label: Final functionality test completed
+
+  # - type: checkboxes
+  #   id: peripherals
+  #   attributes:
+  #     label: Required peripherals and accessories
+  #     description: List only the items that belong with this machine and are required for it to function.
+  #     options:
+  #       - label: Power cable
+  #       - label: Monitor
+  #       - label: Monitor Power
+  #       - label: VGA Cable
+  #       - label: HDMI cable
+  #       - label: Display Port Cable
+  #       - label: Keyboard
+  #       - label: Mouse
+  #       - label: Network cable
+  #       - label: Speakers
+
+  # - type: textarea
+  #   id: notes
+  #   attributes:
+  #     label: Notes
+  #     description: Any extra machine-specific details, warnings, or dependencies.
+  #     placeholder: "Anything important to remember."
+
+  # - type: checkboxes
+  #   id: final_check
+  #   attributes:
+  #     label: Final confirmation
+  #     options:
+  #       - label: This machine is ready to bring to WoRC 2026
+  #       - label: All required peripherals/accessories are gathered
