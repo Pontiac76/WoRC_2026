@@ -1,4 +1,4 @@
-name: Machine Prep / Packing Checklist
+name: Machine Prep
 description: Track setup tasks and required peripherals for a WoRC 2026 machine
 title: "[Machine]: "
 body:
@@ -7,7 +7,7 @@ body:
     attributes:
       label: Machine purpose
       description: What is this machine being brought for?
-      placeholder: "Example: scoring, display, testing, admin, backup"
+      placeholder: "Example: scoring, display, testing, adminI don', backup"
     validations:
       required: false
 
