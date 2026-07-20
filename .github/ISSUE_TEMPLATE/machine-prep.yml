@@ -29,16 +29,6 @@ body:
         - label: Backups/exported configs completed
         - label: Machine boots cleanly
         - label: Final functionality test completed
-  
-  - type: textarea
-    id: custom_tasks
-    attributes:
-      label: Additional tasks
-      description: Add any machine-specific work items here.
-      value: |
-        - [ ] Install/configure ...
-        - [ ] Test ...
-        - [ ] Verify ...
 
   - type: checkboxes
     id: peripherals
