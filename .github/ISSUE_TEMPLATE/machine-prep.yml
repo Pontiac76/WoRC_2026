@@ -40,22 +40,22 @@ body:
         - [ ] Test ...
         - [ ] Verify ...
 
-  - type: textarea
+  - type: checkboxes
     id: peripherals
     attributes:
       label: Required peripherals and accessories
       description: List only the items that belong with this machine and are required for it to function.
-      value: |
-        - [ ] Power cable
-        - [ ] Monitor
-        - [ ] Monitor Power
-        - [ ] VGA Cable
-        - [ ] HDMI cable
-        - [ ] Display Port Cable
-        - [ ] Keyboard
-        - [ ] Mouse
-        - [ ] Network cable
-        - [ ] Speakers
+      options: |
+        - label: Power cable
+        - label: Monitor
+        - label: Monitor Power
+        - label: VGA Cable
+        - label: HDMI cable
+        - label: Display Port Cable
+        - label: Keyboard
+        - label: Mouse
+        - label: Network cable
+        - label: Speakers
 
   - type: textarea
     id: notes
