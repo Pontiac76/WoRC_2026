@@ -23,6 +23,7 @@ body:
       label: Tasks to complete on this machine
       description: Things that need to be installed, configured, tested, updated, or verified.
       options:
+        - label: OS Updates (Win98/etc)
         - label: Required software installed
         - label: Network configuration checked
         - label: Backups/exported configs completed
