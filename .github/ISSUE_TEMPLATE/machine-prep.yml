@@ -26,6 +26,7 @@ body:
         - label: OS Updates (Win98/etc)
         - label: Required software installed
         - label: Network configuration checked
+        - label: Audio is working
         - label: Backups/exported configs completed
         - label: Machine boots cleanly
 
